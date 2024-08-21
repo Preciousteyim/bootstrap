@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler{
+    outline: none !important;
+    padding: 0 !important;
+}
+
+.navbar-toggler img{
+    width: 35px;
+}
+.navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+
+.wrapper{
+    margin: 5px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px 2px rgba(37, 73, 214, 018)   
+}
+.feature-box{
+     padding: 30px;
+}
+.feature-box h1{
+    margin-top: 18%;
+    color: orangered;
+}
+.feature-box p{
+    margin: 30px auto;
+    color: blue;
+}
+.feature-box a {
+    text-decoration: none !important;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    border: 2px solid orangered !important;
+    color: blue;
+}
+.btn-one:hover{
+    color: blue;
+}
+.btn-two{
+    background: none !important;
+    color: orangered;
+   
+}
+.feature-img{
+    width: 100%;
+    padding: 40px;
+}
+@media only screen and (max-width:990px) {
+    .feature-box a {
+        padding: 1px 1px;
+        margin-right: 1px;
+    }
+}
+
+
